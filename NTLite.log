@@ -1,0 +1,289 @@
+﻿07/03/2026 15:08:52	Load tool settings
+07/03/2026 15:08:52	NTLite v2026.3.10854 x64
+07/03/2026 15:08:52	CPU threads 8
+07/03/2026 15:08:53	Gather host hardware list
+07/03/2026 15:08:53	 - GH
+07/03/2026 15:08:53	 - Gather image list
+07/03/2026 15:08:53	Save tool settings
+07/03/2026 15:08:54	Load image list
+07/03/2026 15:08:54	SHD
+07/03/2026 15:08:54	Host: Windows 10 EnterpriseS 1809 x64 - 10.0.17763.8389 (pl-PL)
+07/03/2026 15:08:54	Image list checkup
+07/03/2026 15:09:10	 - Gather image list
+07/03/2026 15:09:10	Save tool settings
+07/03/2026 15:09:10	Load image list
+07/03/2026 15:09:11	Image list checkup
+07/03/2026 15:09:26	Copying 'en_windows_8_x86_dvd_915417.iso' -> 'C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417'
+07/03/2026 15:09:27	Extract en_windows_8_x86_dvd_915417.iso
+07/03/2026 15:09:27	 - ISO format
+07/03/2026 15:10:34	 - Gather image list
+07/03/2026 15:10:34	Save tool settings
+07/03/2026 15:10:34	Load image list
+07/03/2026 15:10:43	Image list checkup
+07/03/2026 15:10:43	 - Gather image list
+07/03/2026 15:10:43	Save tool settings
+07/03/2026 15:10:43	Load image list
+07/03/2026 15:10:44	Image list checkup
+07/03/2026 15:10:44	Image load: Windows 8 - C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim
+07/03/2026 15:10:44	SM [m]: C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim
+07/03/2026 15:10:45	Mounting image: C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim - Windows 8
+07/03/2026 15:10:45		Mount dir: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
+07/03/2026 15:10:45	GWH
+07/03/2026 15:12:44	SM [m]: clr
+07/03/2026 15:12:44	# 
+07/03/2026 15:12:48	Windows 8 x86 - 6.2.9200.16384
+07/03/2026 15:12:48	Reading data: Windows 8 x86 - 6.2.9200.16384 (en-US)
+07/03/2026 15:12:48	Gathering autocomplete files (parallel)
+07/03/2026 15:12:50	- Gather hardware lists
+07/03/2026 15:12:54	- Gather packages
+07/03/2026 15:12:56	 - Package sorting
+07/03/2026 15:12:56	 - Connecting PBC
+07/03/2026 15:12:56	- Filtering packages
+07/03/2026 15:13:03	- Gather existing drivers
+07/03/2026 15:13:03		540 Drivers
+07/03/2026 15:13:08	SPR
+07/03/2026 15:13:09	- Gather services
+07/03/2026 15:13:12	- Gather driver services
+07/03/2026 15:13:13	- Gather scheduled tasks
+07/03/2026 15:13:14	- Gather components
+07/03/2026 15:13:18	- Gather languages
+07/03/2026 15:13:18	- Gather keyboards
+07/03/2026 15:13:18	- Gather fonts
+07/03/2026 15:13:18	- Connect drivers
+07/03/2026 15:13:18	- Gather tweaks
+07/03/2026 15:13:18	Skipping EventLog-Application due to setup requirement
+07/03/2026 15:13:18	Skipping EventLog-Security due to setup requirement
+07/03/2026 15:13:18	Skipping EventLog-System due to setup requirement
+07/03/2026 15:13:19	- Gather unattended data
+07/03/2026 15:13:19		- Timezones
+07/03/2026 15:13:19		- Keyboards
+07/03/2026 15:13:19		- Locales
+07/03/2026 15:13:19	- Gather unattended options
+07/03/2026 15:13:19	# 
+07/03/2026 15:13:19		-Loading components
+07/03/2026 15:13:19	- Apply compatibility options
+07/03/2026 15:13:19		-Loading Apply options
+07/03/2026 15:13:19	 - Gather image list
+07/03/2026 15:13:19	Save tool settings
+07/03/2026 15:13:19	Load image list
+07/03/2026 15:13:19	Windows 8 x86 - 6.2.9200.16384
+07/03/2026 15:13:20	Image list checkup
+07/03/2026 15:13:20		-Loading features
+07/03/2026 15:13:20		-Loading drivers
+07/03/2026 15:13:20		-Loading unattended
+07/03/2026 15:13:20	- Gather unattended options
+07/03/2026 15:13:20		-Loading tweaks
+07/03/2026 15:13:20		-Loading execution list
+07/03/2026 15:13:20	- Gather existing Post-Setup Machine
+07/03/2026 15:13:20	- Gather existing Post-Setup User
+07/03/2026 15:13:20		-Loading registry list
+07/03/2026 15:13:20		-Loading updates
+07/03/2026 15:13:20	# 
+07/03/2026 15:13:20	# 
+07/03/2026 15:13:20	- UnReg (di:0)
+07/03/2026 15:13:22	Cleaning
+07/03/2026 15:13:22	Waiting for other operations to finish
+07/03/2026 15:13:22	Completed - Image load
+07/03/2026 15:13:22	SM [po]: clr
+07/03/2026 15:13:22	 - Gather image list
+07/03/2026 15:13:22	Save tool settings
+07/03/2026 15:13:22	Load image list
+07/03/2026 15:13:23	Windows 8 x86 - 6.2.9200.16384
+07/03/2026 15:13:23	Image list checkup
+07/03/2026 15:13:53	- Listing post-setup executions
+07/03/2026 15:13:59	- Listing components
+07/03/2026 15:16:35	Start applying all of the pending changes.
+07/03/2026 15:16:35	# 
+07/03/2026 15:16:35	Save tool settings
+07/03/2026 15:16:35	- Save preset: Auto-saved 1971de30
+07/03/2026 15:16:35	Completed - Save - Preset
+07/03/2026 15:16:36	 - Gather image list
+07/03/2026 15:16:36	Save tool settings
+07/03/2026 15:16:36	Load image list
+07/03/2026 15:16:36	Windows 8 x86 - 6.2.9200.16384
+07/03/2026 15:16:37	Image list checkup
+07/03/2026 15:16:37	# 
+07/03/2026 15:16:37	Windows 8 x86 - 6.2.9200.16384
+07/03/2026 15:16:37	# 
+07/03/2026 15:16:37	# 
+07/03/2026 15:16:37	Preparing feature configuration
+07/03/2026 15:16:37	Disabling: Windows Search
+07/03/2026 15:16:37	Preparing DISM
+07/03/2026 15:16:37	- DI
+07/03/2026 15:16:37	DA 10.0.17763.5830
+07/03/2026 15:16:37	- UnReg (di:1)
+07/03/2026 15:16:48	 - DCL
+07/03/2026 15:16:50	- DS
+07/03/2026 15:16:50	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch\NLTmpS
+07/03/2026 15:16:50	# 
+07/03/2026 15:16:50	Cleaning - TD
+07/03/2026 15:16:50	- UnReg (di:0)
+07/03/2026 15:16:51	Windows 8 x86 - 6.2.9200.16384
+07/03/2026 15:16:51	Reading data: Windows 8 x86 - 6.2.9200.16384 (en-US)
+07/03/2026 15:16:51	Gathering autocomplete files (parallel)
+07/03/2026 15:16:51	- Gather hardware lists
+07/03/2026 15:16:51	- Gather packages
+07/03/2026 15:16:53	 - Package sorting
+07/03/2026 15:16:53	 - Connecting PBC
+07/03/2026 15:16:53	- Filtering packages
+07/03/2026 15:16:56	- Gather existing drivers
+07/03/2026 15:16:56		540 Drivers
+07/03/2026 15:16:59	SPR
+07/03/2026 15:16:59	- Gather services
+07/03/2026 15:17:00	- Gather driver services
+07/03/2026 15:17:00	- Gather scheduled tasks
+07/03/2026 15:17:01	- Gather components
+07/03/2026 15:17:01	- Gather languages
+07/03/2026 15:17:01	- Gather keyboards
+07/03/2026 15:17:02	- Gather fonts
+07/03/2026 15:17:02	- Connect drivers
+07/03/2026 15:17:02	- Gather tweaks
+07/03/2026 15:17:02	Skipping EventLog-Application due to setup requirement
+07/03/2026 15:17:02	Skipping EventLog-Security due to setup requirement
+07/03/2026 15:17:02	Skipping EventLog-System due to setup requirement
+07/03/2026 15:17:02	- Gather unattended data
+07/03/2026 15:17:02		- Timezones
+07/03/2026 15:17:02		- Keyboards
+07/03/2026 15:17:02		- Locales
+07/03/2026 15:17:02	- Gather unattended options
+07/03/2026 15:17:02	# 
+07/03/2026 15:17:02		-Loading components
+07/03/2026 15:17:02	- Apply compatibility options
+07/03/2026 15:17:02		-Loading features
+07/03/2026 15:17:02		-Loading drivers
+07/03/2026 15:17:02		-Loading unattended
+07/03/2026 15:17:02	- Gather unattended options
+07/03/2026 15:17:02		-Loading tweaks
+07/03/2026 15:17:02		-Loading execution list
+07/03/2026 15:17:02	- Gather existing Post-Setup Machine
+07/03/2026 15:17:02	- Gather existing Post-Setup User
+07/03/2026 15:17:02		-Loading registry list
+07/03/2026 15:17:02		-Loading updates
+07/03/2026 15:17:02	# 
+07/03/2026 15:17:02	# 
+07/03/2026 15:17:02	RCT
+07/03/2026 15:17:02	Preparing data
+07/03/2026 15:17:02	 - Pre-loading selected data
+07/03/2026 15:17:11	Preparing data
+07/03/2026 15:17:11	 - RDS
+07/03/2026 15:17:11	Stack %%SystemRoot%%\winsxs\x86_microsoft-windows-servicingstack_31bf3856ad364e35_6.2.9200.16384_none_060a6d2998b13f25
+07/03/2026 15:17:11	RDS nr2
+07/03/2026 15:17:11	RDS clean 0
+07/03/2026 15:17:11	 - Collect
+07/03/2026 15:17:19	 - PMR
+07/03/2026 15:17:19	RAEC
+07/03/2026 15:17:19	Functionality guard
+07/03/2026 15:17:19	- static
+07/03/2026 15:17:19	- kept components
+07/03/2026 15:17:22	Disable cw
+07/03/2026 15:17:24	Removing components
+07/03/2026 15:17:24	- UnReg (di:1)
+07/03/2026 15:17:26	Removing: Bing
+07/03/2026 15:17:26	Preparing DISM
+07/03/2026 15:17:26	- DI
+07/03/2026 15:17:26	DA 10.0.17763.5830
+07/03/2026 15:17:29	- UnReg (di:0)
+07/03/2026 15:17:29	Done (Bing)
+
+07/03/2026 15:17:30	Removing: Camera
+07/03/2026 15:17:30	- UnReg (di:0)
+07/03/2026 15:17:30	Done (Camera)
+
+07/03/2026 15:17:30	Removing: Finance
+07/03/2026 15:17:30	- UnReg (di:0)
+07/03/2026 15:17:31	Done (Finance)
+
+07/03/2026 15:17:31	Removing: Games
+07/03/2026 15:17:31	- UnReg (di:0)
+07/03/2026 15:17:32	Done (Games)
+
+07/03/2026 15:17:32	Removing: Mail, Calendar, People, and Messaging
+07/03/2026 15:17:32	- UnReg (di:0)
+07/03/2026 15:17:37	Done (Mail, Calendar, People, and Messaging)
+
+07/03/2026 15:17:37	Removing: Maps
+07/03/2026 15:17:37	- UnReg (di:0)
+07/03/2026 15:17:37	Done (Maps)
+
+07/03/2026 15:17:37	Removing: Music
+07/03/2026 15:17:37	- UnReg (di:0)
+07/03/2026 15:17:38	Done (Music)
+
+07/03/2026 15:17:38	Removing: News
+07/03/2026 15:17:38	- UnReg (di:0)
+07/03/2026 15:17:39	Done (News)
+
+07/03/2026 15:17:39	Removing: Photos
+07/03/2026 15:17:39	- UnReg (di:0)
+07/03/2026 15:17:39	Done (Photos)
+
+07/03/2026 15:17:39	Removing: Reader
+07/03/2026 15:17:39	- UnReg (di:0)
+07/03/2026 15:17:39	Done (Reader)
+
+07/03/2026 15:17:39	Removing: SkyDrive
+07/03/2026 15:17:39	- UnReg (di:0)
+07/03/2026 15:17:39	Done (SkyDrive)
+
+07/03/2026 15:17:39	Removing: Sports
+07/03/2026 15:17:40	- UnReg (di:0)
+07/03/2026 15:17:41	Done (Sports)
+
+07/03/2026 15:17:41	Removing: Travel
+07/03/2026 15:17:41	- UnReg (di:0)
+07/03/2026 15:17:43	Done (Travel)
+
+07/03/2026 15:17:43	Removing: Video
+07/03/2026 15:17:43	- UnReg (di:0)
+07/03/2026 15:17:44	Done (Video)
+
+07/03/2026 15:17:44	Removing: Weather
+07/03/2026 15:17:44	- UnReg (di:0)
+07/03/2026 15:17:45	Done (Weather)
+
+07/03/2026 15:17:45	 - DCL
+07/03/2026 15:17:46	- DS
+07/03/2026 15:17:46	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch\NLTmpS
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	CUCT
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	Applying - Unattended setup
+07/03/2026 15:17:46	Unattended: start
+07/03/2026 15:17:46	Unattended: saving file
+07/03/2026 15:17:46	Unattended: done, code 0
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:46	# 
+07/03/2026 15:17:48	- UnReg (di:1)
+07/03/2026 15:17:49	- UnReg (di:0)
+07/03/2026 15:17:52	Saving changes to the image - C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim - Windows 8 x86 - 6.2.9200.16384 (en-US)
+07/03/2026 15:17:52	SM [um]: C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim
+07/03/2026 15:17:52	- UnReg (di:1)
+07/03/2026 15:19:43	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
+07/03/2026 15:19:43	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)_wt
+07/03/2026 15:19:43	Cleaning mount directory
+07/03/2026 15:19:44	SM [um]: clr
+07/03/2026 15:19:44	# 
+07/03/2026 15:19:44	SM [e]: C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim
+07/03/2026 15:19:44	Exporting C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim:1 -> C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWExp1971de30\install.wim
+07/03/2026 15:19:44	 - WG Export
+07/03/2026 15:19:44	GWH
+07/03/2026 15:19:48	Image compression: 2
+07/03/2026 15:19:48	GWH
+07/03/2026 15:20:26	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWEDsta51caec5
+07/03/2026 15:20:26	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWESrca51caec5
+07/03/2026 15:20:26	SM [e]: C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim
+07/03/2026 15:20:26	Exporting C:\Program Files\NTLite\Cache\Images\en_windows_8_x86_dvd_915417\sources\install.wim:2 -> C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWExp1971de30\install.wim
+07/03/2026 15:20:26	 - WG Export
+07/03/2026 15:20:26	GWH
+07/03/2026 15:20:30	Image compression: 2
+07/03/2026 15:20:30	GWH
+07/03/2026 15:21:06	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWEDst3c15ff7f
+07/03/2026 15:21:06	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWESrc3c15ff7f
+07/03/2026 15:21:07	# 

@@ -1,4 +1,4 @@
-# Tiny8.0
+# Tiny8
 A lightweight version of Windows 8.0/8.1, It is 32 and 64  bit, so it runs on old laptops and new laptops perfectly.
 To install Tiny 8.0, you need: older laptop or newer. 
 Here is the legal version that you can make your own Tiny 8.0.

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." manifestVersion="1.0">
-  <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-Setup-Events" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" version="6.2.9200.16384" versionScope="nonSxS"/>
+  <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-Setup-Events" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="6.3.9600.16384" versionScope="nonSxS"/>
   <dependency discoverable="false" optional="false" resourceType="Resources">
     <dependentAssembly dependencyType="prerequisite">
-      <assemblyIdentity buildType="release" language="*" name="Microsoft-Windows-Setup-Events.Resources" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" version="6.2.9200.16384" versionScope="nonSxS"/>
+      <assemblyIdentity buildType="release" language="*" name="Microsoft-Windows-Setup-Events.Resources" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="6.3.9600.16384" versionScope="nonSxS"/>
     </dependentAssembly>
   </dependency>
   <file destinationPath="$(runtime.system32)\" importPath="$(build.nttree)\" name="setupetw.dll" sourceName="setupetw.dll" sourcePath=".\">
@@ -78,6 +78,49 @@
           <event channel="chaSetupQueueAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.CommandExecQueueRun.StopMessage.FailedToExecute)" opcode="win:Stop" symbol="CommandExecQueueRunStopFailedToExecute" task="tskCommandExecQueueRun" template="tidErrorCodeResult" value="1003"/>
         </events>
       </provider>
+      <provider guid="{530FB9B9-C515-4472-9313-FB346F9255E3}" message="$(string.SetupPlatform.ProviderMessage)" messageFileName="%SystemRoot%\system32\setupetw.dll" name="Microsoft-Windows-SetupPlatform" resourceFileName="%SystemRoot%\system32\setupetw.dll" symbol="Microsoft_Windows_SetupPlatform">
+        <channels>
+          <channel chid="chaSetupPlatformAnalytic" name="Microsoft-Windows-SetupPlatform/Analytic" type="Analytic"/>
+          <importChannel chid="chaSetup" name="Setup"/>
+          <importChannel chid="System" name="System"/>
+        </channels>
+        <keywords>
+          <keyword mask="0x00000001" message="$(string.Performance.KeywordMessage)" name="keyPerformance"/>
+        </keywords>
+        <templates>
+          <template tid="tidOperation">
+            <data inType="win:UnicodeString" name="Operation"/>
+            <data inType="win:UInt32" name="ErrorCode"/>
+          </template>
+          <template tid="tidOnlineGather">
+            <data inType="win:UnicodeString" name="OfflineWinDir"/>
+            <data inType="win:UInt32" name="MachineSpecific"/>
+          </template>
+          <template tid="tidSetupInformation">
+            <data inType="win:UInt32" name="Installation choice"/>
+            <data inType="win:UInt32" name="Host OS Major version"/>
+            <data inType="win:UInt32" name="Host OS Minor version"/>
+            <data inType="win:UInt32" name="Host OS Build number"/>
+            <data inType="win:UInt32" name="Host OS Service pack major number"/>
+            <data inType="win:UInt32" name="Host OS Service pack minor number"/>
+          </template>
+        </templates>
+        <tasks>
+          <task eventGUID="{3EEC6A5B-EFA7-485F-ADDE-7F213B6949A6}" message="$(string.OperationRun.TaskMessage)" name="OperationRun" value="1000"/>
+          <task eventGUID="{C864E0EB-D617-49D4-BEBD-BEEFD7404D92}" message="$(string.OnlineGather.TaskMessage)" name="OnlineGatherRun" value="1001"/>
+          <task eventGUID="{C7357B22-F641-4E37-BAF5-3E93C147400F}" message="$(string.OfflineGather.TaskMessage)" name="OfflineGatherRun" value="1002"/>
+          <task eventGUID="{B4D65F05-5C4E-4A39-84D8-B774B586124F}" message="$(string.TaskInstallWindows.TaskMessage)" name="InstallWindows" value="1003"/>
+        </tasks>
+        <events>
+          <event channel="chaSetupPlatformAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.OperationRun.StartMessage)" opcode="win:Start" symbol="OperationRunStart" task="OperationRun" template="tidOperation" value="1001"/>
+          <event channel="chaSetupPlatformAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.OperationRun.StopMessage)" opcode="win:Stop" symbol="OperationRunStop" task="OperationRun" template="tidOperation" value="1002"/>
+          <event channel="chaSetupPlatformAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.OnlineGatherRun.StartMessage)" opcode="win:Start" symbol="OnlineGatherRunStart" task="OnlineGatherRun" template="tidOnlineGather" value="1003"/>
+          <event channel="chaSetupPlatformAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.OnlineGatherRun.StopMessage)" opcode="win:Stop" symbol="OnlineGatherRunStop" task="OnlineGatherRun" template="tidOnlineGather" value="1004"/>
+          <event channel="chaSetupPlatformAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.OfflineGatherRun.StartMessage)" opcode="win:Start" symbol="OfflineGatherRunStart" task="OfflineGatherRun" value="1005"/>
+          <event channel="chaSetupPlatformAnalytic" keywords="keyPerformance" level="win:Informational" message="$(string.OfflineGatherRun.StopMessage)" opcode="win:Stop" symbol="OfflineGatherRunStop" task="OfflineGatherRun" value="1006"/>
+          <event channel="System" level="win:Informational" message="$(string.EventSetupInformation.Message)" opcode="win:Info" symbol="EventSetupInformation" task="InstallWindows" template="tidSetupInformation" value="2005"/>
+        </events>
+      </provider>
     </events>
   </instrumentation>
   <localization>
@@ -86,6 +129,7 @@
         <string id="Performance.KeywordMessage" value="Performance"/>
         <string id="Deplorch.ProviderMessage" value="Microsoft-Windows-Deplorch"/>
         <string id="SetupQueue.ProviderMessage" value="Microsoft-Windows-SetupQueue"/>
+        <string id="SetupPlatform.ProviderMessage" value="Microsoft-Windows-SetupPlatform"/>
         <string id="StartSystemServices.TaskMessage" value="Start System Services"/>
         <string id="StartSystemServices.StartMessage" value="Starting system services."/>
         <string id="StartSystemServices.StopMessage" value="Finished starting system services with status %1."/>
@@ -93,6 +137,17 @@
         <string id="CommandExecQueueRun.StartMessage" value="Executing command queue entry &quot;%1&quot;."/>
         <string id="CommandExecQueueRun.StopMessage.Executed" value="Command queue entry exited with status %1."/>
         <string id="CommandExecQueueRun.StopMessage.FailedToExecute" value="Failed to launch command queue entry with status %1."/>
+        <string id="OperationRun.TaskMessage" value="Run operation"/>
+        <string id="OperationRun.StartMessage" value="Start operation: %1, %2"/>
+        <string id="OperationRun.StopMessage" value="Stop operation: %1, %2"/>
+        <string id="OnlineGather.TaskMessage" value="Online gather"/>
+        <string id="OnlineGatherRun.StartMessage" value="Online gather starts: %1, %2"/>
+        <string id="OnlineGatherRun.StopMessage" value="Online gather stops: %1, %2"/>
+        <string id="OfflineGather.TaskMessage" value="Offline gather"/>
+        <string id="OfflineGatherRun.StartMessage" value="Offline gather starts"/>
+        <string id="OfflineGatherRun.StopMessage" value="Offline gather stops"/>
+        <string id="TaskInstallWindows.TaskMessage" value="Install Windows Task"/>
+        <string id="EventSetupInformation.Message" value="New Setup information"/>
         <string id="RunUserProvidedScript.TaskMessage" value="Run user-provided script"/>
         <string id="RunUserProvidedScript.StartMessage" value="Running user-provided script: &quot;%1&quot;."/>
         <string id="RunUserProvidedScript.StopMessageExecuted" value="Successfully executed script: &quot;%1&quot;. Exit code is %2."/>

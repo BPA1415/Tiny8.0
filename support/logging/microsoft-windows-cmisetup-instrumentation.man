@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." manifestVersion="1.0">
-  <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-CmiSetup-Instrumentation" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" version="6.2.9200.16384" versionScope="nonSxS"/>
+  <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-CmiSetup-Instrumentation" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="6.3.9600.16384" versionScope="nonSxS"/>
   <registryKeys>
     <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI\AutoLogger\Microsoft-Windows-Setup\{75EBC33E-0CC6-49da-8CD9-8903A5222AA0}">
+      <registryValue name="Enabled" value="1" valueType="REG_DWORD"/>
+      <registryValue name="EnableLevel" value="4" valueType="REG_DWORD"/>
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI\AutoLogger\SetupPlatform\{75EBC33E-0CC6-49da-8CD9-8903A5222AA0}">
       <registryValue name="Enabled" value="1" valueType="REG_DWORD"/>
       <registryValue name="EnableLevel" value="4" valueType="REG_DWORD"/>
     </registryKey>

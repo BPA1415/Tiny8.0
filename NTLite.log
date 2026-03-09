@@ -1,397 +1,318 @@
-﻿08/03/2026 16:32:29	Load tool settings
-08/03/2026 16:32:29	NTLite v2026.3.10854 x64
-08/03/2026 16:32:29	CPU threads 8
-08/03/2026 16:32:30	Gather host hardware list
-08/03/2026 16:32:30	 - GH
-08/03/2026 16:32:31	 - Gather image list
-08/03/2026 16:32:31	Save tool settings
-08/03/2026 16:32:31	Load image list
-08/03/2026 16:32:31	SHD
-08/03/2026 16:32:31	Host: Windows 10 EnterpriseS 1809 x64 - 10.0.17763.8389 (pl-PL)
-08/03/2026 16:32:33	Image list checkup
-08/03/2026 16:32:51	 - Gather image list
-08/03/2026 16:32:51	Save tool settings
-08/03/2026 16:32:51	Load image list
-08/03/2026 16:32:52	Image list checkup
-08/03/2026 16:33:40	Copying 'Win8.1_English_x32.iso' -> 'C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32'
-08/03/2026 16:33:40	Extract Win8.1_English_x32.iso
-08/03/2026 16:33:40	 - ISO format
-08/03/2026 16:34:47	 - Gather image list
-08/03/2026 16:34:47	Save tool settings
-08/03/2026 16:34:49	Load image list
-08/03/2026 16:35:02	Image list checkup
-08/03/2026 16:35:02	 - Gather image list
-08/03/2026 16:35:02	Save tool settings
-08/03/2026 16:35:02	Load image list
-08/03/2026 16:35:03	Image list checkup
-08/03/2026 16:35:04	Image load: Windows 8.1 - C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:35:04	SM [m]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:35:04	Mounting image: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim - Windows 8.1
-08/03/2026 16:35:04		Mount dir: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
-08/03/2026 16:35:04	GWH
-08/03/2026 16:37:44	SM [m]: clr
-08/03/2026 16:37:44	# 
-08/03/2026 16:37:47	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:37:47	Reading data: Windows 8.1 U3 x86 - 6.3.9600.17415 (en-US)
-08/03/2026 16:37:47	Gathering autocomplete files (parallel)
-08/03/2026 16:37:48	- Gather hardware lists
-08/03/2026 16:37:49	- Gather packages
-08/03/2026 16:37:52	 - Package sorting
-08/03/2026 16:37:52	 - Connecting PBC
-08/03/2026 16:37:52	- Filtering packages
-08/03/2026 16:37:57	- Gather existing drivers
-08/03/2026 16:37:57		551 Drivers
-08/03/2026 16:38:02	SPR
-08/03/2026 16:38:04	- Gather services
-08/03/2026 16:38:07	- Gather driver services
-08/03/2026 16:38:09	- Gather scheduled tasks
-08/03/2026 16:38:11	- Gather components
-08/03/2026 16:38:13	- Gather languages
-08/03/2026 16:38:13	- Gather keyboards
-08/03/2026 16:38:13	- Gather fonts
-08/03/2026 16:38:14	- Connect drivers
-08/03/2026 16:38:14	- Gather tweaks
-08/03/2026 16:38:14	Skipping EventLog-Application due to setup requirement
-08/03/2026 16:38:14	Skipping EventLog-Security due to setup requirement
-08/03/2026 16:38:14	Skipping EventLog-System due to setup requirement
-08/03/2026 16:38:14	- Gather unattended data
-08/03/2026 16:38:14		- Timezones
-08/03/2026 16:38:14		- Keyboards
-08/03/2026 16:38:14		- Locales
-08/03/2026 16:38:14	- Gather unattended options
-08/03/2026 16:38:14	# 
-08/03/2026 16:38:14		-Loading components
-08/03/2026 16:38:14	- Apply compatibility options
-08/03/2026 16:38:14		-Loading Apply options
-08/03/2026 16:38:14	 - Gather image list
-08/03/2026 16:38:14	Save tool settings
-08/03/2026 16:38:14	Load image list
-08/03/2026 16:38:14	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:38:15	Image list checkup
-08/03/2026 16:38:15		-Loading features
-08/03/2026 16:38:15		-Loading drivers
-08/03/2026 16:38:15		-Loading unattended
-08/03/2026 16:38:15	- Gather unattended options
-08/03/2026 16:38:15		-Loading tweaks
-08/03/2026 16:38:15		-Loading execution list
-08/03/2026 16:38:15	- Gather existing Post-Setup Machine
-08/03/2026 16:38:15	- Gather existing Post-Setup User
-08/03/2026 16:38:15		-Loading registry list
-08/03/2026 16:38:15		-Loading updates
-08/03/2026 16:38:15	# 
-08/03/2026 16:38:15	# 
-08/03/2026 16:38:15	- UnReg (di:0)
-08/03/2026 16:38:16	Cleaning
-08/03/2026 16:38:16	Waiting for other operations to finish
-08/03/2026 16:38:16	Completed - Image load
-08/03/2026 16:38:16	SM [po]: clr
-08/03/2026 16:38:16	 - Gather image list
-08/03/2026 16:38:16	Save tool settings
-08/03/2026 16:38:16	Load image list
-08/03/2026 16:38:17	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:38:18	Image list checkup
-08/03/2026 16:38:29	Drivers page fill
-08/03/2026 16:38:29	- Hardware list refresh
-08/03/2026 16:38:29	- Listing added drivers
-08/03/2026 16:38:29	- Listing hardware devices
-08/03/2026 16:38:29	- Listing hardware devices
-08/03/2026 16:38:30	- Listing hardware devices
-08/03/2026 16:38:32	- Listing post-setup executions
-08/03/2026 16:38:34	- Listing components
-08/03/2026 16:40:42	- Listing hardware devices
-08/03/2026 16:43:52	- Listing hardware devices
-08/03/2026 16:44:01	Checking for updates
-08/03/2026 16:44:02	SP
-08/03/2026 16:44:02	Save tool settings
-08/03/2026 16:44:26	Verifying - Existing packages
-08/03/2026 16:44:26	Verified
-08/03/2026 16:45:21	- Listing hardware devices
-08/03/2026 16:48:44	- Listing hardware devices
-08/03/2026 16:49:13	- Listing hardware devices
-08/03/2026 16:49:18	Start applying all of the pending changes.
-08/03/2026 16:49:18	# 
-08/03/2026 16:49:18	Save tool settings
-08/03/2026 16:49:18	- Save preset: Auto-saved 24d891b3
-08/03/2026 16:49:18	Completed - Save - Preset
-08/03/2026 16:49:19	 - Gather image list
-08/03/2026 16:49:19	Save tool settings
-08/03/2026 16:49:19	Load image list
-08/03/2026 16:49:19	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:49:19	Image list checkup
-08/03/2026 16:49:19	# 
-08/03/2026 16:49:20	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:49:20	# 
-08/03/2026 16:49:20	# 
-08/03/2026 16:49:20	Preparing feature configuration
-08/03/2026 16:49:20	Disabling: Internet Explorer 11
-08/03/2026 16:49:20	Preparing DISM
-08/03/2026 16:49:20	- DI
-08/03/2026 16:49:20	DA 10.0.17763.5830
-08/03/2026 16:49:20	- UnReg (di:1)
-08/03/2026 16:49:32	Disabling: Windows Search
-08/03/2026 16:49:33	Cleaning
-08/03/2026 16:49:33	Waiting for other operations to finish
-08/03/2026 16:49:34	 - DCL
-08/03/2026 16:49:37	- DS
-08/03/2026 16:49:37	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch\NLTmpS
-08/03/2026 16:49:37	Cleaning
-08/03/2026 16:49:37	Waiting for other operations to finish
-08/03/2026 16:49:38	- UnReg (di:0)
-08/03/2026 16:49:38	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch
-08/03/2026 16:49:38	Load image list
-08/03/2026 16:49:38	- UnReg (di:0)
-08/03/2026 16:49:38	  [1223] The operation was canceled by the user.
-08/03/2026 16:49:43	SM [po]: clr
-08/03/2026 16:49:43	- UnReg (di:0)
-08/03/2026 16:49:43	Load image list
-08/03/2026 16:49:43	 - Gather image list
-08/03/2026 16:49:43	Save tool settings
-08/03/2026 16:49:43	Load image list
-08/03/2026 16:49:44	Image list checkup
-08/03/2026 16:49:48	 - Gather image list
-08/03/2026 16:49:48	Save tool settings
-08/03/2026 16:49:48	Load image list
-08/03/2026 16:49:50	Image list checkup
-08/03/2026 16:49:50	Image load: Windows 8.1 - C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:49:50		Existing mount dir: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
-08/03/2026 16:49:50	SM [rm]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:49:50	Reopening image: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim (Windows 8.1)
-08/03/2026 16:49:50	SM [rm]: clr
-08/03/2026 16:49:50	# 
-08/03/2026 16:49:51	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:49:51	Reading data: Windows 8.1 U3 x86 - 6.3.9600.17415 (en-US)
-08/03/2026 16:49:51	Gathering autocomplete files (parallel)
-08/03/2026 16:49:51	- Gather hardware lists
-08/03/2026 16:49:51	- Gather packages
-08/03/2026 16:49:53	 - Package sorting
-08/03/2026 16:49:53	 - Connecting PBC
-08/03/2026 16:49:53	- Filtering packages
-08/03/2026 16:49:55	- Gather existing drivers
-08/03/2026 16:49:55		551 Drivers
-08/03/2026 16:49:56	SPR
-08/03/2026 16:49:56	- Gather services
-08/03/2026 16:49:57	- Gather driver services
-08/03/2026 16:49:57	- Gather scheduled tasks
-08/03/2026 16:49:58	- Gather components
-08/03/2026 16:49:58	- Gather languages
-08/03/2026 16:49:58	- Gather keyboards
-08/03/2026 16:49:58	- Gather fonts
-08/03/2026 16:49:59	- Connect drivers
-08/03/2026 16:49:59	- Gather tweaks
-08/03/2026 16:49:59	Skipping EventLog-Application due to setup requirement
-08/03/2026 16:49:59	Skipping EventLog-Security due to setup requirement
-08/03/2026 16:49:59	Skipping EventLog-System due to setup requirement
-08/03/2026 16:49:59	- Gather unattended data
-08/03/2026 16:49:59		- Timezones
-08/03/2026 16:49:59		- Keyboards
-08/03/2026 16:49:59		- Locales
-08/03/2026 16:49:59	- Gather unattended options
-08/03/2026 16:49:59	# 
-08/03/2026 16:50:02		-Loading components
-08/03/2026 16:50:02	- Apply compatibility options
-08/03/2026 16:50:02		-Loading Apply options
-08/03/2026 16:50:02	 - Gather image list
-08/03/2026 16:50:02	Save tool settings
-08/03/2026 16:50:02	Load image list
-08/03/2026 16:50:02	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:50:02	Image list checkup
-08/03/2026 16:50:02		-Loading features
-08/03/2026 16:50:02		-Loading drivers
-08/03/2026 16:50:02		-Loading unattended
-08/03/2026 16:50:02	- Gather unattended options
-08/03/2026 16:50:02		-Loading tweaks
-08/03/2026 16:50:02		-Loading execution list
-08/03/2026 16:50:02	- Gather existing Post-Setup Machine
-08/03/2026 16:50:02	- Gather existing Post-Setup User
-08/03/2026 16:50:02		-Loading registry list
-08/03/2026 16:50:02		-Loading updates
-08/03/2026 16:50:02	# 
-08/03/2026 16:50:02	# 
-08/03/2026 16:50:02	- UnReg (di:0)
-08/03/2026 16:50:02	Cleaning
-08/03/2026 16:50:02	Waiting for other operations to finish
-08/03/2026 16:50:03	Completed - Image load
-08/03/2026 16:50:03	SM [po]: clr
-08/03/2026 16:50:03	 - Gather image list
-08/03/2026 16:50:03	Save tool settings
-08/03/2026 16:50:03	Load image list
-08/03/2026 16:50:03	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:50:04	Image list checkup
-08/03/2026 16:50:04	Drivers page fill
-08/03/2026 16:50:04	- Hardware list refresh
-08/03/2026 16:50:04	- Listing added drivers
-08/03/2026 16:50:04	- Listing hardware devices
-08/03/2026 16:50:04	- Listing hardware devices
-08/03/2026 16:50:05	- Listing post-setup executions
-08/03/2026 16:50:07	- Listing components
-08/03/2026 16:50:45	- Listing hardware devices
-08/03/2026 16:51:33	- Listing hardware devices
-08/03/2026 16:51:34	Start applying all of the pending changes.
-08/03/2026 16:51:34	# 
-08/03/2026 16:51:34	Save tool settings
-08/03/2026 16:51:34	- Save preset: Auto-saved 24d891b3
-08/03/2026 16:51:35	Completed - Save - Preset
-08/03/2026 16:51:35	 - Gather image list
-08/03/2026 16:51:35	Save tool settings
-08/03/2026 16:51:35	Load image list
-08/03/2026 16:51:35	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:51:36	Image list checkup
-08/03/2026 16:51:36	# 
-08/03/2026 16:51:36	Windows 8.1 U3 x86 - 6.3.9600.17415
-08/03/2026 16:51:36	# 
-08/03/2026 16:51:36	# 
-08/03/2026 16:51:36	# 
-08/03/2026 16:51:36	RCT
-08/03/2026 16:51:36	Preparing data
-08/03/2026 16:51:36	 - Pre-loading selected data
-08/03/2026 16:51:40	Preparing data
-08/03/2026 16:51:40	 - RDS
-08/03/2026 16:51:40	Stack %%SystemRoot%%\winsxs\x86_microsoft-windows-servicingstack_31bf3856ad364e35_6.3.9600.17246_none_9e2c4d65e2c1ef06
-08/03/2026 16:51:40	RDS clean 0
-08/03/2026 16:51:40	 - Collect
-08/03/2026 16:52:08	 - PMR
-08/03/2026 16:52:08	RAEC
-08/03/2026 16:52:08	Functionality guard
-08/03/2026 16:52:08	- static
-08/03/2026 16:52:08	- kept components
-08/03/2026 16:52:14	Disable cw
-08/03/2026 16:52:17	Removing components
-08/03/2026 16:52:17	- UnReg (di:1)
-08/03/2026 16:52:18	Removing: Games
-08/03/2026 16:52:18	Preparing DISM
-08/03/2026 16:52:18	- DI
-08/03/2026 16:52:18	DA 10.0.17763.5830
-08/03/2026 16:52:21	- UnReg (di:0)
-08/03/2026 16:52:24	Done (Games)
+﻿08/03/2026 11:24:21	Load tool settings
+08/03/2026 11:24:21	NTLite v2026.3.10854 x64
+08/03/2026 11:24:21	CPU threads 8
+08/03/2026 11:24:22	Gather host hardware list
+08/03/2026 11:24:22	 - GH
+08/03/2026 11:24:23	 - Gather image list
+08/03/2026 11:24:23	Save tool settings
+08/03/2026 11:24:23	Load image list
+08/03/2026 11:24:23	SHD
+08/03/2026 11:24:23	Host: Windows 10 EnterpriseS 1809 x64 - 10.0.17763.8389 (pl-PL)
+08/03/2026 11:24:26	Image list checkup
+08/03/2026 11:24:26	Checking for updates
+08/03/2026 11:24:27	SP
+08/03/2026 11:24:27	Save tool settings
+08/03/2026 11:24:36	 - Gather image list
+08/03/2026 11:24:36	Save tool settings
+08/03/2026 11:24:36	Load image list
+08/03/2026 11:24:37	Image list checkup
+08/03/2026 11:24:44	Copying 'Win8.1_English_x64.iso' -> 'C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64'
+08/03/2026 11:24:44	Extract Win8.1_English_x64.iso
+08/03/2026 11:24:44	 - ISO format
+08/03/2026 11:27:08	 - Gather image list
+08/03/2026 11:27:08	Save tool settings
+08/03/2026 11:27:09	Load image list
+08/03/2026 11:27:20	Image list checkup
+08/03/2026 11:27:20	 - Gather image list
+08/03/2026 11:27:20	Save tool settings
+08/03/2026 11:27:20	Load image list
+08/03/2026 11:27:21	Image list checkup
+08/03/2026 11:27:21	Image load: Windows 8.1 - C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim
+08/03/2026 11:27:21	SM [m]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim
+08/03/2026 11:27:21	Mounting image: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim - Windows 8.1
+08/03/2026 11:27:21		Mount dir: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
+08/03/2026 11:27:21	GWH
+08/03/2026 11:33:34	SM [m]: clr
+08/03/2026 11:33:34	# 
+08/03/2026 11:33:37	Windows 8.1 U3 x64 - 6.3.9600.17415
+08/03/2026 11:33:37	Reading data: Windows 8.1 U3 x64 - 6.3.9600.17415 (en-US)
+08/03/2026 11:33:37	Gathering autocomplete files (parallel)
+08/03/2026 11:33:37	- Gather hardware lists
+08/03/2026 11:33:38	- Gather packages
+08/03/2026 11:33:46	 - Package sorting
+08/03/2026 11:33:46	 - Connecting PBC
+08/03/2026 11:33:47	- Filtering packages
+08/03/2026 11:33:53	- Gather existing drivers
+08/03/2026 11:33:53		559 Drivers
+08/03/2026 11:34:00	SPR
+08/03/2026 11:34:02	- Gather services
+08/03/2026 11:34:10	- Gather driver services
+08/03/2026 11:34:11	- Gather scheduled tasks
+08/03/2026 11:34:15	- Gather components
+08/03/2026 11:34:17	- Gather languages
+08/03/2026 11:34:17	- Gather keyboards
+08/03/2026 11:34:18	- Gather fonts
+08/03/2026 11:34:18	- Connect drivers
+08/03/2026 11:34:18	- Gather tweaks
+08/03/2026 11:34:18	Skipping EventLog-Application due to setup requirement
+08/03/2026 11:34:18	Skipping EventLog-Security due to setup requirement
+08/03/2026 11:34:18	Skipping EventLog-System due to setup requirement
+08/03/2026 11:34:18	- Gather unattended data
+08/03/2026 11:34:18		- Timezones
+08/03/2026 11:34:18		- Keyboards
+08/03/2026 11:34:18		- Locales
+08/03/2026 11:34:18	- Gather unattended options
+08/03/2026 11:34:18	# 
+08/03/2026 11:34:18		-Loading components
+08/03/2026 11:34:18	- Apply compatibility options
+08/03/2026 11:34:18		-Loading Apply options
+08/03/2026 11:34:18	 - Gather image list
+08/03/2026 11:34:18	Save tool settings
+08/03/2026 11:34:18	Load image list
+08/03/2026 11:34:18	Windows 8.1 U3 x64 - 6.3.9600.17415
+08/03/2026 11:34:22	Image list checkup
+08/03/2026 11:34:22		-Loading features
+08/03/2026 11:34:22		-Loading drivers
+08/03/2026 11:34:22		-Loading unattended
+08/03/2026 11:34:22	- Gather unattended options
+08/03/2026 11:34:22		-Loading tweaks
+08/03/2026 11:34:22		-Loading execution list
+08/03/2026 11:34:22	- Gather existing Post-Setup Machine
+08/03/2026 11:34:22	- Gather existing Post-Setup User
+08/03/2026 11:34:22		-Loading registry list
+08/03/2026 11:34:22		-Loading updates
+08/03/2026 11:34:22	# 
+08/03/2026 11:34:22	# 
+08/03/2026 11:34:22	- UnReg (di:0)
+08/03/2026 11:34:23	Cleaning
+08/03/2026 11:34:23	Waiting for other operations to finish
+08/03/2026 11:34:23	Completed - Image load
+08/03/2026 11:34:23	SM [po]: clr
+08/03/2026 11:34:23	 - Gather image list
+08/03/2026 11:34:23	Save tool settings
+08/03/2026 11:34:23	Load image list
+08/03/2026 11:34:24	Windows 8.1 U3 x64 - 6.3.9600.17415
+08/03/2026 11:34:25	Image list checkup
+08/03/2026 11:34:26	- Listing components
+08/03/2026 11:36:52	Start applying all of the pending changes.
+08/03/2026 11:36:52	# 
+08/03/2026 11:36:52	Save tool settings
+08/03/2026 11:36:52	- Save preset: Auto-saved 996c63b5
+08/03/2026 11:36:52	Completed - Save - Preset
+08/03/2026 11:36:53	 - Gather image list
+08/03/2026 11:36:53	Save tool settings
+08/03/2026 11:36:53	Load image list
+08/03/2026 11:36:53	Windows 8.1 U3 x64 - 6.3.9600.17415
+08/03/2026 11:36:54	Image list checkup
+08/03/2026 11:36:54	# 
+08/03/2026 11:36:54	Windows 8.1 U3 x64 - 6.3.9600.17415
+08/03/2026 11:36:54	# 
+08/03/2026 11:36:54	# 
+08/03/2026 11:36:54	Preparing feature configuration
+08/03/2026 11:36:54	Disabling: Windows Search
+08/03/2026 11:36:54	Preparing DISM
+08/03/2026 11:36:54	- DI
+08/03/2026 11:36:54	DA 10.0.17763.5830
+08/03/2026 11:36:54	- UnReg (di:1)
+08/03/2026 11:37:05	 - DCL
+08/03/2026 11:37:07	- DS
+08/03/2026 11:37:07	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch\NLTmpS
+08/03/2026 11:37:07	# 
+08/03/2026 11:37:07	Cleaning - TD
+08/03/2026 11:37:07	- UnReg (di:0)
+08/03/2026 11:37:08	Windows 8.1 U3 x64 - 6.3.9600.17415
+08/03/2026 11:37:08	Reading data: Windows 8.1 U3 x64 - 6.3.9600.17415 (en-US)
+08/03/2026 11:37:08	Gathering autocomplete files (parallel)
+08/03/2026 11:37:08	- Gather hardware lists
+08/03/2026 11:37:08	- Gather packages
+08/03/2026 11:37:11	 - Package sorting
+08/03/2026 11:37:11	 - Connecting PBC
+08/03/2026 11:37:11	- Filtering packages
+08/03/2026 11:37:13	- Gather existing drivers
+08/03/2026 11:37:13		559 Drivers
+08/03/2026 11:37:14	SPR
+08/03/2026 11:37:14	- Gather services
+08/03/2026 11:37:15	- Gather driver services
+08/03/2026 11:37:15	- Gather scheduled tasks
+08/03/2026 11:37:16	- Gather components
+08/03/2026 11:37:16	- Gather languages
+08/03/2026 11:37:16	- Gather keyboards
+08/03/2026 11:37:16	- Gather fonts
+08/03/2026 11:37:17	- Connect drivers
+08/03/2026 11:37:17	- Gather tweaks
+08/03/2026 11:37:17	Skipping EventLog-Application due to setup requirement
+08/03/2026 11:37:17	Skipping EventLog-Security due to setup requirement
+08/03/2026 11:37:17	Skipping EventLog-System due to setup requirement
+08/03/2026 11:37:17	- Gather unattended data
+08/03/2026 11:37:17		- Timezones
+08/03/2026 11:37:17		- Keyboards
+08/03/2026 11:37:17		- Locales
+08/03/2026 11:37:17	- Gather unattended options
+08/03/2026 11:37:17	# 
+08/03/2026 11:37:17		-Loading components
+08/03/2026 11:37:17	- Apply compatibility options
+08/03/2026 11:37:17		-Loading features
+08/03/2026 11:37:17		-Loading drivers
+08/03/2026 11:37:17		-Loading unattended
+08/03/2026 11:37:17	- Gather unattended options
+08/03/2026 11:37:17		-Loading tweaks
+08/03/2026 11:37:17		-Loading execution list
+08/03/2026 11:37:17	- Gather existing Post-Setup Machine
+08/03/2026 11:37:17	- Gather existing Post-Setup User
+08/03/2026 11:37:17		-Loading registry list
+08/03/2026 11:37:17		-Loading updates
+08/03/2026 11:37:17	# 
+08/03/2026 11:37:17	# 
+08/03/2026 11:37:17	RCT
+08/03/2026 11:37:17	Preparing data
+08/03/2026 11:37:17	 - Pre-loading selected data
+08/03/2026 11:37:23	Preparing data
+08/03/2026 11:37:23	 - RDS
+08/03/2026 11:37:23	Stack %%SystemRoot%%\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.3.9600.17246_none_fa4ae8e99b1f603c
+08/03/2026 11:37:24	RDS clean 0
+08/03/2026 11:37:24	 - Collect
+08/03/2026 11:38:15	 - PMR
+08/03/2026 11:38:15	RAEC
+08/03/2026 11:38:15	Functionality guard
+08/03/2026 11:38:15	- static
+08/03/2026 11:38:15	- kept components
+08/03/2026 11:38:26	Disable cw
+08/03/2026 11:38:29	Removing components
+08/03/2026 11:38:29	- UnReg (di:1)
+08/03/2026 11:38:30	Removing: Games
+08/03/2026 11:38:30	Preparing DISM
+08/03/2026 11:38:30	- DI
+08/03/2026 11:38:30	DA 10.0.17763.5830
+08/03/2026 11:38:33	- UnReg (di:0)
+08/03/2026 11:38:36	Done (Games)
 
-08/03/2026 16:52:24	Removing: Mail, Calendar, and People
-08/03/2026 16:52:24	- UnReg (di:0)
-08/03/2026 16:52:26	Done (Mail, Calendar, and People)
+08/03/2026 11:38:36	Removing: Mail, Calendar, and People
+08/03/2026 11:38:36	- UnReg (di:0)
+08/03/2026 11:38:38	Done (Mail, Calendar, and People)
 
-08/03/2026 16:52:26	Removing: Maps
-08/03/2026 16:52:26	- UnReg (di:0)
-08/03/2026 16:52:28	Done (Maps)
+08/03/2026 11:38:38	Removing: Maps
+08/03/2026 11:38:38	- UnReg (di:0)
+08/03/2026 11:38:40	Done (Maps)
 
-08/03/2026 16:52:28	Removing: Microsoft PlayReady
-08/03/2026 16:52:28	Done - 6.8 MB (Microsoft PlayReady)
+08/03/2026 11:38:40	Removing: Microsoft PlayReady
+08/03/2026 11:38:41	Done - 6.8 MB (Microsoft PlayReady)
 
-08/03/2026 16:52:28	Removing: MSN Food & Drink
-08/03/2026 16:52:28	- UnReg (di:0)
-08/03/2026 16:52:30	Done (MSN Food & Drink)
+08/03/2026 11:38:41	Removing: MSN Food & Drink
+08/03/2026 11:38:41	- UnReg (di:0)
+08/03/2026 11:38:43	Done (MSN Food & Drink)
 
-08/03/2026 16:52:30	Removing: MSN Health & Fitness
-08/03/2026 16:52:30	- UnReg (di:0)
-08/03/2026 16:52:31	Done (MSN Health & Fitness)
+08/03/2026 11:38:43	Removing: MSN Health & Fitness
+08/03/2026 11:38:43	- UnReg (di:0)
+08/03/2026 11:38:45	Done (MSN Health & Fitness)
 
-08/03/2026 16:52:31	Removing: MSN Money
-08/03/2026 16:52:31	- UnReg (di:0)
-08/03/2026 16:52:33	Done (MSN Money)
+08/03/2026 11:38:45	Removing: MSN Money
+08/03/2026 11:38:45	- UnReg (di:0)
+08/03/2026 11:38:46	Done (MSN Money)
 
-08/03/2026 16:52:33	Removing: MSN News
-08/03/2026 16:52:33	- UnReg (di:0)
-08/03/2026 16:52:35	Done (MSN News)
+08/03/2026 11:38:46	Removing: MSN News
+08/03/2026 11:38:46	- UnReg (di:0)
+08/03/2026 11:38:48	Done (MSN News)
 
-08/03/2026 16:52:35	Removing: MSN Sports
-08/03/2026 16:52:35	- UnReg (di:0)
-08/03/2026 16:52:37	Done (MSN Sports)
+08/03/2026 11:38:48	Removing: MSN Sports
+08/03/2026 11:38:48	- UnReg (di:0)
+08/03/2026 11:38:50	Done (MSN Sports)
 
-08/03/2026 16:52:37	Removing: MSN Travel
-08/03/2026 16:52:37	- UnReg (di:0)
-08/03/2026 16:52:38	Done (MSN Travel)
+08/03/2026 11:38:50	Removing: MSN Travel
+08/03/2026 11:38:50	- UnReg (di:0)
+08/03/2026 11:38:51	Done (MSN Travel)
 
-08/03/2026 16:52:38	Removing: MSN Weather
-08/03/2026 16:52:38	- UnReg (di:0)
-08/03/2026 16:52:40	Done (MSN Weather)
+08/03/2026 11:38:51	Removing: MSN Weather
+08/03/2026 11:38:51	- UnReg (di:0)
+08/03/2026 11:38:53	Done (MSN Weather)
 
-08/03/2026 16:52:40	Removing: Music
-08/03/2026 16:52:40	- UnReg (di:0)
-08/03/2026 16:52:42	Done (Music)
+08/03/2026 11:38:53	Removing: Music
+08/03/2026 11:38:53	- UnReg (di:0)
+08/03/2026 11:38:55	Done (Music)
 
-08/03/2026 16:52:42	Removing: OneNote
-08/03/2026 16:52:42	- UnReg (di:0)
-08/03/2026 16:52:44	Done (OneNote)
+08/03/2026 11:38:55	Removing: OneNote
+08/03/2026 11:38:55	- UnReg (di:0)
+08/03/2026 11:38:57	Done (OneNote)
 
-08/03/2026 16:52:44	Removing: Reader
-08/03/2026 16:52:44	- UnReg (di:0)
-08/03/2026 16:52:45	Done (Reader)
+08/03/2026 11:38:57	Removing: Reader
+08/03/2026 11:38:57	- UnReg (di:0)
+08/03/2026 11:38:58	Done (Reader)
 
-08/03/2026 16:52:45	Removing: Skype
-08/03/2026 16:52:45	- UnReg (di:0)
-08/03/2026 16:52:48	Done (Skype)
+08/03/2026 11:38:58	Removing: Skype
+08/03/2026 11:38:58	- UnReg (di:0)
+08/03/2026 11:39:01	Done (Skype)
 
-08/03/2026 16:52:48	Removing: Video
-08/03/2026 16:52:48	- UnReg (di:0)
-08/03/2026 16:52:50	Done (Video)
+08/03/2026 11:39:01	Removing: Video
+08/03/2026 11:39:01	- UnReg (di:0)
+08/03/2026 11:39:03	Done (Video)
 
-08/03/2026 16:52:50	Removing: Windows Alarms
-08/03/2026 16:52:50	- UnReg (di:0)
-08/03/2026 16:52:51	Done (Windows Alarms)
+08/03/2026 11:39:03	Removing: Windows Alarms
+08/03/2026 11:39:03	- UnReg (di:0)
+08/03/2026 11:39:05	Done (Windows Alarms)
 
-08/03/2026 16:52:51	Removing: Windows Calculator
-08/03/2026 16:52:51	- UnReg (di:0)
-08/03/2026 16:52:52	Done (Windows Calculator)
+08/03/2026 11:39:05	Removing: Windows Calculator
+08/03/2026 11:39:05	- UnReg (di:0)
+08/03/2026 11:39:06	Done (Windows Calculator)
 
-08/03/2026 16:52:52	Removing: Windows Help+Tips
-08/03/2026 16:52:52	- UnReg (di:0)
-08/03/2026 16:52:54	Done (Windows Help+Tips)
+08/03/2026 11:39:06	Removing: Windows Help+Tips
+08/03/2026 11:39:06	- UnReg (di:0)
+08/03/2026 11:39:08	Done (Windows Help+Tips)
 
-08/03/2026 16:52:54	Removing: Windows Reading List
-08/03/2026 16:52:54	- UnReg (di:0)
-08/03/2026 16:52:55	Done (Windows Reading List)
+08/03/2026 11:39:08	Removing: Windows Reading List
+08/03/2026 11:39:08	- UnReg (di:0)
+08/03/2026 11:39:10	Done (Windows Reading List)
 
-08/03/2026 16:52:55	Removing: Windows Scan
-08/03/2026 16:52:55	- UnReg (di:0)
-08/03/2026 16:52:57	Done (Windows Scan)
+08/03/2026 11:39:10	Removing: Windows Scan
+08/03/2026 11:39:10	- UnReg (di:0)
+08/03/2026 11:39:11	Done (Windows Scan)
 
-08/03/2026 16:52:57	Removing: Windows Sound Recorder
-08/03/2026 16:52:57	- UnReg (di:0)
-08/03/2026 16:52:58	Done (Windows Sound Recorder)
+08/03/2026 11:39:11	Removing: Windows Sound Recorder
+08/03/2026 11:39:11	- UnReg (di:0)
+08/03/2026 11:39:12	Done (Windows Sound Recorder)
 
-08/03/2026 16:52:58	 - DCL
-08/03/2026 16:52:59	- DS
-08/03/2026 16:52:59	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch\NLTmpS
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	CUCT
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	Applying - Tweaks
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	Applying - Unattended setup
-08/03/2026 16:52:59	Unattended: start
-08/03/2026 16:52:59	Unattended: saving file
-08/03/2026 16:52:59	Unattended: done, code 0
-08/03/2026 16:52:59	# 
-08/03/2026 16:52:59	# 
-08/03/2026 16:53:01	Total removed:  0 MB Hard links  /  6.8 MB Files  /  0 MB ISO Files
-08/03/2026 16:53:01	- UnReg (di:1)
-08/03/2026 16:53:04	- UnReg (di:0)
-08/03/2026 16:53:06	Saving changes to the image - C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim - Windows 8.1 U3 x86 - 6.3.9600.17415 (en-US)
-08/03/2026 16:53:06	SM [um]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:53:06	- UnReg (di:1)
-08/03/2026 16:54:47	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
-08/03/2026 16:54:47	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)_wt
-08/03/2026 16:54:47	Cleaning mount directory
-08/03/2026 16:54:48	SM [um]: clr
-08/03/2026 16:54:48	# 
-08/03/2026 16:54:48	SM [e]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:54:48	Exporting C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim:1 -> C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWExp24d891b3\install.wim
-08/03/2026 16:54:48	 - WG Export
-08/03/2026 16:54:48	GWH
-08/03/2026 16:54:53	Image compression: 2
-08/03/2026 16:54:53	GWH
-08/03/2026 16:55:43	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWEDstd190d510
-08/03/2026 16:55:43	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWESrcd190d510
-08/03/2026 16:55:43	SM [e]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim
-08/03/2026 16:55:43	Exporting C:\Program Files\NTLite\Cache\Images\Win8.1_English_x32\sources\install.wim:2 -> C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWExp24d891b3\install.wim
-08/03/2026 16:55:43	 - WG Export
-08/03/2026 16:55:43	GWH
-08/03/2026 16:55:48	Image compression: 2
-08/03/2026 16:55:48	GWH
-08/03/2026 16:56:39	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWEDst489984aa
-08/03/2026 16:56:39	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWESrc489984aa
-08/03/2026 16:56:39	# 
+08/03/2026 11:39:12	 - DCL
+08/03/2026 11:39:13	- DS
+08/03/2026 11:39:13	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpScratch\NLTmpS
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	CUCT
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	Applying - Unattended setup
+08/03/2026 11:39:13	Unattended: start
+08/03/2026 11:39:13	Unattended: saving file
+08/03/2026 11:39:13	Unattended: done, code 0
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:13	# 
+08/03/2026 11:39:17	Total removed:  0 MB Hard links  /  6.8 MB Files  /  0 MB ISO Files
+08/03/2026 11:39:17	- UnReg (di:1)
+08/03/2026 11:39:20	- UnReg (di:0)
+08/03/2026 11:39:23	Saving changes to the image - C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim - Windows 8.1 U3 x64 - 6.3.9600.17415 (en-US)
+08/03/2026 11:39:23	SM [um]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim
+08/03/2026 11:39:23	- UnReg (di:1)
+08/03/2026 11:42:43	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)
+08/03/2026 11:42:43	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpMnt (1)_wt
+08/03/2026 11:42:43	Cleaning mount directory
+08/03/2026 11:42:43	SM [um]: clr
+08/03/2026 11:42:43	# 
+08/03/2026 11:42:43	SM [e]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim
+08/03/2026 11:42:43	Exporting C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim:1 -> C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWExp996c63b5\install.wim
+08/03/2026 11:42:43	 - WG Export
+08/03/2026 11:42:43	GWH
+08/03/2026 11:42:50	Image compression: 2
+08/03/2026 11:42:50	GWH
+08/03/2026 11:43:56	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWEDst384ec4d7
+08/03/2026 11:43:56	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWESrc384ec4d7
+08/03/2026 11:43:56	SM [e]: C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim
+08/03/2026 11:43:56	Exporting C:\Program Files\NTLite\Cache\Images\Win8.1_English_x64\sources\install.wim:2 -> C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWExp996c63b5\install.wim
+08/03/2026 11:43:56	 - WG Export
+08/03/2026 11:43:56	GWH
+08/03/2026 11:44:03	Image compression: 2
+08/03/2026 11:44:03	GWH
+08/03/2026 11:45:06	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWEDsta147956d
+08/03/2026 11:45:06	Deleting temporary files: C:\Users\Jakub Zuzga\AppData\Local\Temp\NLTmpWESrca147956d
+08/03/2026 11:45:07	# 

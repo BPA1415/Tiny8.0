@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>03/08/2026 11:36:52</Date>
+	<Version>1.1</Version>
+	<AppInfo>
+		<Version>2026.3.10854</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 EnterpriseS 1809 x64 - 10.0.17763.8389 (pl-PL)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 8.1 U3 x64 - 6.3.9600.17415 (en-US)</Version>
+		<GUID>{66CBD435-717A-44AB-AC12-D6B737E026B1}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>microsoft.bingfinance 'MSN Money'</c>
+		<c>microsoft.bingfoodanddrink 'MSN Food &amp; Drink'</c>
+		<c>microsoft.binghealthandfitness 'MSN Health &amp; Fitness'</c>
+		<c>microsoft.bingmaps 'Maps'</c>
+		<c>microsoft.bingnews 'MSN News'</c>
+		<c>microsoft.bingsports 'MSN Sports'</c>
+		<c>microsoft.bingtravel 'MSN Travel'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.helpandtips 'Windows Help+Tips'</c>
+		<c>microsoft.media.playreadyclient.2 'Microsoft PlayReady'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.reader 'Reader'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms'</c>
+		<c>microsoft.windowscalculator 'Windows Calculator'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail, Calendar, and People'</c>
+		<c>microsoft.windowsreadinglist 'Windows Reading List'</c>
+		<c>microsoft.windowsscan 'Windows Scan'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Sound Recorder'</c>
+		<c>microsoft.xboxlivegames 'Games'</c>
+		<c>microsoft.zunemusic 'Music'</c>
+		<c>microsoft.zunevideo 'Video'</c>
+	</RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+	</Features>
+	<Unattended mode="1">
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<UserData>
+					<ProductKey>
+						<WillShowUI>Never</WillShowUI>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks></Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\Jakub Zuzga\Desktop\Tiny8\tiny8.1\tiny8.1-1.2-x64.iso</AutoIsoFile>
+		<AutoIsoLabel>tiny 8.1 x64</AutoIsoLabel>
+	</ApplyOptions>
+</Preset>
